@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Park Pair — Find Ride Buddies & Hangout Partners</title>
+  <meta name="description" content="Park Pair helps you find ride buddies and hangout partners at amusement parks. Connect with nearby thrill-seekers, chat safely, and make memories.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-icon">🎢</span>
+        Park Pair
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="6" x2="20" y2="6"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="18" x2="20" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" id="menuClose" aria-label="Close menu">✕</button>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="floaters">
+      <div class="floater">🎡</div>
+      <div class="floater">🎢</div>
+      <div class="floater">🎈</div>
+      <div class="floater">⭐</div>
+      <div class="floater">🎟️</div>
+      <div class="floater">🎆</div>
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>🎡</span>
+          Now available on iOS & Android
+        </div>
+        <h1>Never Ride <em>Alone</em> Again</h1>
+        <p>Find ride buddies, hangout partners, and new friends at your favorite amusement parks. Check in, connect, and make memories together.</p>
+        <div class="hero-cta">
+          <a href="#features" class="btn btn-white btn-lg">Explore Features</a>
+          <a href="privacy.html" class="btn btn-outline btn-lg">Privacy First</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong>13+</strong>
+            <span>Age requirement</span>
+          </div>
+          <div class="hero-stat">
+            <strong>100%</strong>
+            <span>Free to use</span>
+          </div>
+          <div class="hero-stat">
+            <strong>Safe</strong>
+            <span>Photo verified</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="phone-notch"></div>
+            <div class="phone-content">
+              <div class="phone-card">
+                <div class="phone-card-header">
+                  <div class="phone-avatar">🎢</div>
+                  <div>
+                    <div class="phone-card-title">Cedar Point</div>
+                    <div class="phone-card-sub">Sandusky, OH</div>
+                  </div>
+                </div>
+                <div class="phone-tags">
+                  <span class="phone-tag">🎢 Coasters</span>
+                  <span class="phone-tag">🍔 Food</span>
+                  <span class="phone-tag">📸 Photos</span>
+                </div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-header">
+                  <div class="phone-avatar" style="background:linear-gradient(135deg,#4DCAC8,#FF8585)">👤</div>
+                  <div>
+                    <div class="phone-card-title">Alex, 22</div>
+                    <div class="phone-card-sub">Looking for a coaster buddy</div>
+                  </div>
+                </div>
+                <div class="phone-tags">
+                  <span class="phone-tag">✅ Verified</span>
+                  <span class="phone-tag">🎢 Steel Vengeance</span>
+                </div>
+              </div>
+              <div class="phone-btn">Send Ride Request</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Features</span>
+        <h2>Everything you need to find your park crew</h2>
+        <p>Park Pair is built from the ground up to make meeting new friends at amusement parks safe, easy, and fun.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">📍</div>
+          <h3>Park Check-In</h3>
+          <p>Drop a pin at the park you're visiting and instantly see who's nearby. No guessing, no ghost profiles — just real people at the same place as you.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">💬</div>
+          <h3>In-App Chat</h3>
+          <p>Message matched connections without ever sharing your phone number. Stay safe while you coordinate meetups and share excitement.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">📸</div>
+          <h3>Photo Verification</h3>
+          <p>Prove you're really you with our automated face verification. Verified users get a badge so everyone knows they're genuine.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">🎢</div>
+          <h3>Ride Posts</h3>
+          <p>Post what you're riding right now. Others at the park can see your plans and join you — spontaneity made simple.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">🌙</div>
+          <h3>Live Activities</h3>
+          <p>Keep your ride status visible on your lock screen with iOS Live Activities. Your buddies always know where to find you.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">🛡️</div>
+          <h3>Report & Block</h3>
+          <p>Feel unsafe? Report or block any user instantly. Our moderation team reviews every report to keep the community healthy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">How It Works</span>
+        <h2>Three steps to your next adventure</h2>
+        <p>From opening the app to riding together — it takes just minutes.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-number">1</div>
+          <h3>Check In</h3>
+          <p>Open Park Pair when you arrive at the park. Your location is only shared while the app is open.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">2</div>
+          <h3>Connect</h3>
+          <p>Browse nearby ride buddies, send a request, or start a chat. Find someone who loves the same thrills.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">3</div>
+          <h3>Ride Together</h3>
+          <p>Meet up, hit the coasters, and make memories. All communication stays inside the app for your safety.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety -->
+  <section class="section safety">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Safety</span>
+        <h2>Built for peace of mind</h2>
+        <p>Your safety is our top priority. Every feature is designed with protection in mind.</p>
+      </div>
+      <div class="safety-grid">
+        <div class="safety-card reveal">
+          <div class="safety-icon-wrap">✅</div>
+          <div>
+            <h4>Photo Verification</h4>
+            <p>Automated face verification keeps profiles real and reduces catfishing.</p>
+          </div>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon-wrap">🔒</div>
+          <div>
+            <h4>No Phone Numbers</h4>
+            <p>All chat happens inside the app. Your personal contact info stays private.</p>
+          </div>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon-wrap">🛡️</div>
+          <div>
+            <h4>Instant Blocking</h4>
+            <p>Block anyone, anytime. Blocked users can't see or contact you again.</p>
+          </div>
+        </div>
+        <div class="safety-card reveal">
+          <div class="safety-icon-wrap">👤</div>
+          <div>
+            <h4>Age-Gated Community</h4>
+            <p>Park Pair is for ages 13+. We enforce age limits to keep the community appropriate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2>Ready to find your park crew?</h2>
+        <p>Download Park Pair today and turn solo trips into shared adventures. Available free on the App Store and Google Play.</p>
+        <div class="hero-cta" style="justify-content:center">
+          <span class="btn btn-white btn-lg">App Store</span>
+          <span class="btn btn-outline btn-lg" style="color:white;border-color:rgba(255,255,255,0.3)">Google Play</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">🎢 Park Pair</div>
+          <p class="footer-desc">Made for thrill-seekers, by thrill-seekers. Find ride buddies and make memories at amusement parks around the world.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:privacy@parkpair.app">privacy@parkpair.app</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Park Pair. All rights reserved.</p>
+        <p>Built with care for the roller coaster community.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // Mobile menu
+    const menuToggle = document.getElementById('menuToggle');
+    const menuClose = document.getElementById('menuClose');
+    const mobileNav = document.getElementById('mobileNav');
+    menuToggle.addEventListener('click', () => mobileNav.classList.add('open'));
+    menuClose.addEventListener('click', () => mobileNav.classList.remove('open'));
+    mobileNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => mobileNav.classList.remove('open'));
+    });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    reveals.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
